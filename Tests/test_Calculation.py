@@ -3,7 +3,7 @@ from src.calculator import *
 
 class TestCalculator(unittest.TestCase):
     def test_suma(self):
-        self.assertEqual(suma(2, 3), 5)
+        self.assertEqual(suma(2, 3), 25)
 
     def test_resta(self):
         self.assertEqual(restar(5, 3), 2)
